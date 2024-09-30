@@ -1,0 +1,812 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+
+    background-image: url(Assest/asianfamily.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* Nothing Here */
+
+
+.headerbg{
+    background-color: rgb(48, 88, 232);
+    width: 100%;
+    height: 650px;
+
+    margin: auto;
+    padding: 10px;
+}
+
+.headerfill{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+}
+
+.navbar{
+    padding: 30px 15px 40px 15px;
+    margin: 0px -15px 0px -15px;
+
+    font-size: 180x;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 24px;
+
+    cursor: pointer;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(214, 224, 250);
+    font-size: 14px;
+    margin: 5px;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.menu .span1{
+    color: white;
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    color: black;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.menu ul{
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+
+.contact{
+    cursor: pointer;
+}
+
+.hero{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header{
+    line-height: 60px;
+}
+
+.header h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.header p{
+    line-height: 25px;
+    color: rgb(214, 224, 250);
+}
+
+.button1{
+    width: 500px;
+    height: 75px;
+
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.buttoncontact{
+    background-color: white;
+    width: 125px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 5%;
+
+    color: rgb(48, 88, 232);
+    font-weight: 600;
+    font-size: 14px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.buttoncontact:hover{
+    background-color: rgb(48, 88, 232);
+    width: 125px;
+    height: 50px;
+    margin-right: 18px;
+
+    border-radius: 5%;
+    border: solid 1px;
+    border-color: white;
+
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 14px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.buttonvideo{
+    color: white;
+    width: 150px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.headerimg{
+    background-image: url(Assest/businessman.jpg);
+    width: 80%;
+    height: 90%;
+    border-radius: 1%;
+    background-size: cover;
+}
+
+
+/* Content 1 */
+
+
+.contentbg0{
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    height: 650px;
+
+    margin: auto;
+}
+
+.contentfill0{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.familyimg{
+    background-image: url(Assest/asianfamily.jpg);
+    width: 60%;
+    height: 80%;
+    border-radius: 1%;
+    background-size: cover;
+}
+
+.contentdesc0{
+    width: 31%;
+    height: 80%;
+}
+
+.contentdesc0 h2{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    margin-bottom: 12px;
+}
+
+.contentdesc0 p{
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    color: rgb(134, 134, 134);
+}
+
+.contentlabel0{
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.contentflex0{
+    width: 100%;
+    height: auto;
+    
+    margin: 12px 0px 12px 0px;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contentflex0 .icon{
+    background-color: white;
+    width: auto;
+    height: 20%;
+    border-radius: 5%;
+
+    padding: 8px 10px 6px 10px;
+    margin: 0px 20px 0px 0px;
+
+    color: rgb(48, 88, 232);
+    text-align: center;
+    font-size: 24px;
+}
+
+.contentflex0 .contenttext0 h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+
+/* Content 2 */
+
+
+.contentbg1{
+    background-color: rgb(48, 88, 232);
+    width: 100%;
+    height: 225px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contentbg1 .fill{
+    width: 80%;
+    height: 225PX;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contentflex1{
+    width: 31%;
+    height: 70%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contentflex1 .icon{
+    padding: 8px 10px 10px 10px;
+    margin: 0px 20px 25px 0px;
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 45px; 
+}
+
+.contentflex1 h2{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contentflex1 p{
+    color: rgb(214, 224, 250);
+    line-height: 20px;
+    font-weight: 500;
+    font-size: 14px;
+}
+    
+
+
+/* Content 3 */
+
+
+.contentbg2{
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    height: 625px;
+    margin: auto;
+}
+
+.contentfill2{
+    width: 80%;
+    height: 625px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contentimg2{
+    background-image: url(Assest/businessman.jpg);
+    width: 60%;
+    height: 80%;
+    border-radius: 1%;
+    background-size: cover;
+    margin-right: -15px;
+}
+
+.contentdesc2{
+    width: 37%;
+    height: 80%;
+}
+
+.contentdesc2 h2{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 12px;
+}
+
+.contentdesc2 p{
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 12px;
+    color: rgb(134, 134, 134);
+}
+
+.contentlabel2{
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 36px 0px 24px 0px;
+}
+
+.contentflex2{
+    width: 100%;
+    height: auto;
+    
+    margin: 12px 0px 12px 0px;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contentflex2 .icon{
+    background-color: white;
+    width: auto;
+    height: 20%;
+    border-radius: 5%;
+
+    padding: 12px 14px 14px 14px;
+    margin: 0px 20px 0px 0px;
+
+    color: rgb(48, 88, 232);
+    text-align: center;
+    font-size: 24px;
+}
+
+.contentflex2 .contenttext2 h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+
+/* Content 4 */
+
+
+.contentbg3{
+    background-color: rgb(242, 242, 242);
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.contentfill3{
+    width: 80%;
+    height: 625px;
+    margin: auto;
+}
+
+.contentdesc3{
+    margin: auto;
+    width: 45%;
+
+    text-align: center;
+}
+
+.contentdesc3 h2{
+    color: rgb(48, 110, 232);
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.contentdesc3 p{
+    color: rgb(132, 141, 146);
+}
+
+.contentlabel3{
+    width: 100%;
+    margin-top: 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contentflex3{
+    background-color: white;
+    border-radius: 2%;
+    width: 32%;
+    height: 370px;
+    margin-top: 25px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentflex3 .icon{
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: rgb(48, 110, 232);
+}
+
+.contenttext3{
+    width: 80%;
+}
+
+.contenttext3 h2{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contenttext3 p{
+    font-size: 15px;
+    line-height: 22px;
+    color: rgb(132, 141, 146);
+    margin-bottom: 25px;
+}
+
+.buttonreadmore{
+    background-color: white;
+    padding: 10px 16px 10px 16px;
+
+    border-radius: 5%;
+    border: solid 1px;
+    border-color: rgb(48, 88, 232);
+
+    color: rgb(48, 88, 232);
+    font-weight: 500;
+    font-size: 13px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.buttonreadmore:hover{
+    background-color: rgb(48, 88, 232);
+    padding: 10px 16px 10px 16px;
+
+    border-radius: 5%;
+
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Content 5*/
+
+
+.contentbg4{
+    background-color: rgb(48, 88, 232);
+    width: 100%;
+    height: 250px;
+    margin: auto;
+    opacity: 90%;
+}
+
+.contentbg4 .fill{
+    width: 80%;
+    height: 250px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contentdesc4{
+    width: 36%;
+    color: white;
+}
+
+.contentdesc4 h1{
+    margin-bottom: 10px;
+}
+
+.contentdesc4 p{
+    line-height: 24px;
+}
+
+.contentbg4 .buttoncontact{
+    margin-right: -1px;
+}
+
+/* Content 6 */
+
+
+.contentbg5{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 800px;
+    margin: auto;
+}
+
+.contentbg5 .fill{
+    width: 80%;
+    height: 850px;
+    margin: auto;
+}
+
+.contentbg5 h2{
+    font-size: 30px;
+    padding: 50px 0px;
+    color: rgb(48, 110, 232);
+}
+
+.contentbg5 .grid{
+    width: 100%;
+    height: 590px;
+
+    display: grid;
+    grid-template-areas: "box1 box2 box3";
+    gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ln1, .ln2, .ln3{
+    border: 0.4px solid rgb(231, 231, 231);
+    border-radius: 1%;
+}
+
+.contentbg5 .ln1{
+    grid-area: box1;
+}
+
+.contentbg5 .ln2{
+    grid-area: box2;
+}
+
+.contentbg5 .ln3{
+    grid-area: box3;
+}
+
+.lnimg{
+    background-size: cover;
+    width: 100%;
+    height: 45%;
+    border-top-right-radius: 1%;
+    border-top-left-radius: 1%;
+}
+
+.ln1 .lnimg{
+    background-image: url(Assest/businessman.jpg);
+}
+
+.ln2 .lnimg{
+    background-image: url(Assest/asianbusiness.jpg);
+}
+
+.ln3 .lnimg{
+    background-image: url(Assest/asianfamily.jpg);
+}
+
+.grid .desc{
+    width: 80%;
+    height: auto;
+    margin: auto;
+
+    padding-top: 40px;
+}
+
+.contentbg5 h6{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(140, 140, 140);
+}
+
+.contentbg5 .desc h2{
+    font-size: 20px;
+    font-weight: 400;
+
+    margin-top: -40px;
+}
+
+.contentbg5 p{
+    color: rgb(140, 140, 140);
+
+    font-size: 15px;
+    line-height: 22px;
+
+    margin: -40px 0 50px 0;
+}
+
+.contentbg5 span{
+    color: rgb(48, 88, 232);
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.contentbg5 span:hover{
+    cursor: pointer;
+}
+
+
+/* Footer */
+
+
+.footer{
+    background-color: rgb(48, 88, 232);
+    width: 100%;
+    height: 520px;
+    margin: auto;
+
+    color: white;
+}
+
+.footer .fill{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    padding-top: 75px ;
+
+    display: grid;
+    grid-template-areas: "ft1 ft2 ft3 ft4";
+    gap: 20px;
+
+    grid-template-columns: 1.6fr 0.6fr 1fr 1.4fr;
+}
+
+.about, .company, .company2, .navigation{
+    line-height: 30px;
+}
+
+.footer .about{
+    grid-area: ft1;
+}
+
+.footer .company{
+    grid-area: ft2;
+}
+
+.footer .company2{
+    grid-area: ft3;
+}
+
+.footer .navigation{
+    grid-area: ft4;
+}
+
+.footer ul{
+    list-style-type: none;
+}
+
+.about ul{
+    margin-top: 12px;
+}
+
+.footer li:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.footer span:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.footer h5{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.footer p{
+    line-height: 22px;
+}
+
+.footer p, li{
+    font-size: 14px;
+}
+
+.footer li, span{
+    color: white;
+    font-weight: 500;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.footer h4{
+    margin-top: 40px;
+    text-align: center;
+
+    font-weight: 400;
+    font-size: 14px;
+}
+
+button{
+    margin-top: 5px;
+}
+
+.bsocial{
+    background-color: rgb(48, 110 ,232);
+    border: none;
+    border-radius: 10%;
+
+    color: white;
+    padding: 10px 12px;
+    font-size: 16px;
+
+    transition: 0.3s;
+}
+
+.bsocial:hover{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+
+    color: rgb(48, 110 ,232);
+    padding: 10px 12px;
+    font-size: 16px;
+}
